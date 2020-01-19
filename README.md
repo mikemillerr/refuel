@@ -25,8 +25,14 @@ Predict fuel prices in the future for any given gas station in Germany.  Then pr
 The data was downloaded from the _tankerkoenig.de_  azure repository: [Link](https://dev.azure.com/tankerkoenig/_git/tankerkoenig-data)
 
 The are separated into two parts:
-    - Gas station data: Contains the actual gas station data: uuid, name, brand, street, house_number, post_code, city, latitude, longitude
-    - Price data: All price changes over a day a put into a single csv-file, the features are as follows: date, station_uuid, diesel, e5, e10, dieselchange, e5change, e10change
+
+    - Gas station data: 
+    Contains the actual gas station data:
+    uuid, name, brand, street, house_number, post_code, city, latitude, longitude
+    
+    - Price data: 
+    All price changes over a day a put into a single csv-file, the features are as follows: 
+    date, station_uuid, diesel, e5, e10, dieselchange, e5change, e10change
 
 
 ## Technologies used in this project:
@@ -38,6 +44,7 @@ The are separated into two parts:
 
 ## Presentations:
 The directory __presentations__ contains all performed presentations during the final event, with their scripts in the notes. 
+
     - __One_minute_pitch.pdf__: The name says it all!
     - __refuel_business_deck.pdf__: Presentation show to people coming to my desk on the event. - Not scripted -
     - __refuel_presentation_3_minutes.pdf__:Presentations performed in the evening part of the final event on stage. - scripted -  
@@ -67,5 +74,3 @@ This notebooks contain the processes connected to __refuel__ idea:
 - __make_driving_profile.ipynb__: Here a driving profile of a commuter is created. Which will be used as baseline to compared the impact of the refuel-algorithm
 
 - __refuel.ipynb__: This notebook contains the heart of this project. Here the forecast are created. And than evaluated in a real-world-like example.
-
-apstone Project
