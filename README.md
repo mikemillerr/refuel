@@ -1,5 +1,4 @@
 # refuel
-C# _refuel_
 
 ## Overview:
 This repository contains the code, visualizations and presentations of my capstone project. This project was done in the last four week during my data science bootcamps. It's purpose is to implement some of the skills learned during the bootcamp and present it on the final event.
