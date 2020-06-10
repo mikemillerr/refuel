@@ -8,7 +8,6 @@ import numpy as np
 import statsmodels.api as sm
 import itertools
 from scipy.spatial import cKDTree
-from math import pi
 
 
 def load_data_from_csv(timespan=365, 
